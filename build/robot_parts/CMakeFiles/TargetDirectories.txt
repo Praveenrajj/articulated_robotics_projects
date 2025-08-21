@@ -1,9 +1,0 @@
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/install/strip.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/install.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/list_install_components.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/rebuild_cache.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/edit_cache.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/test.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/install/local.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/robot_parts_uninstall.dir
-/home/praveen/two_wheeled_robot/src/build/robot_parts/CMakeFiles/uninstall.dir

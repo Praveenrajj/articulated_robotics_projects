@@ -1,4 +1,0 @@
-Invoking command in '/home/praveen/two_wheeled_robot/src/build/robot_parts': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/praveen/two_wheeled_robot/src/build/robot_parts -- -j16 -l16
-Invoked command in '/home/praveen/two_wheeled_robot/src/build/robot_parts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/praveen/two_wheeled_robot/src/build/robot_parts -- -j16 -l16
-Invoking command in '/home/praveen/two_wheeled_robot/src/build/robot_parts': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/praveen/two_wheeled_robot/src/build/robot_parts
-Invoked command in '/home/praveen/two_wheeled_robot/src/build/robot_parts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/praveen/two_wheeled_robot/src/build/robot_parts
