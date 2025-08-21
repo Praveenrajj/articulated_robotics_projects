@@ -1,0 +1,6 @@
+Invoking command in '/home/praveen/two_wheeled_robot/src/build/robot_parts': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/praveen/two_wheeled_robot/src/robot_parts -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/praveen/two_wheeled_robot/src/install/robot_parts
+Invoked command in '/home/praveen/two_wheeled_robot/src/build/robot_parts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/praveen/two_wheeled_robot/src/robot_parts -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/praveen/two_wheeled_robot/src/install/robot_parts
+Invoking command in '/home/praveen/two_wheeled_robot/src/build/robot_parts': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/praveen/two_wheeled_robot/src/build/robot_parts -- -j16 -l16
+Invoked command in '/home/praveen/two_wheeled_robot/src/build/robot_parts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/praveen/two_wheeled_robot/src/build/robot_parts -- -j16 -l16
+Invoking command in '/home/praveen/two_wheeled_robot/src/build/robot_parts': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/praveen/two_wheeled_robot/src/build/robot_parts
+Invoked command in '/home/praveen/two_wheeled_robot/src/build/robot_parts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/praveen/two_wheeled_robot/src/build/robot_parts

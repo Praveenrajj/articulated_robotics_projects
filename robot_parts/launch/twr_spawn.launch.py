@@ -9,7 +9,7 @@ import xacro
 def generate_launch_description():
     pkg_name="robot_parts"
     
-    xacro_file=os.path.join(get_package_share_directory(pkg_name),"description","two_wheeled_robot.xacro")
+    xacro_file=os.path.join(get_package_share_directory(pkg_name),"description","two_wheeled_robot.urdf.xacro")
     robot_description=xacro.process_file(xacro_file).toxml()
 
     node_rsp= Node(
@@ -50,6 +50,20 @@ def generate_launch_description():
     )
 
 
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["diff_cont"],
+    )
+
+
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["joint_broad"],
+    )
+
+
     # Launch RViz2
     rviz_node = Node(
         package='rviz2',
@@ -60,9 +74,13 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        node_rsp,
+        
         gazebo,
+
+        node_rsp,
         spawn_entity,
         rviz_node,
-        # jsp
+        # jsp,
+        diff_drive_spawner,
+        joint_broad_spawner,
     ])

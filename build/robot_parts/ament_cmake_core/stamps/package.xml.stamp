@@ -18,7 +18,7 @@
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>joint_state_publisher_gui</exec_depend>  
   <exec_depend>gazebo_ros</exec_depend>
-  <exec_depend>gazebo_ros2_control</exec_depend>
+  <exec_depend>gazebo_ros_control</exec_depend>
 
 
   <export>

@@ -14,8 +14,12 @@
         <color rgba="0.2 0.2 1 1"/>    
     </material>
 
-        <material name="black">   
+    <material name="black">   
         <color rgba="0 0 0 1"/>    
+    </material>
+
+    <material name="Red">   
+        <color rgba="1 0 0 1"/>    
     </material>
 
     <!--Base link-->
