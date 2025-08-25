@@ -79,7 +79,7 @@ def generate_launch_description():
 
         node_rsp,
         spawn_entity,
-        rviz_node,
+        # rviz_node,
         # jsp,
         diff_drive_spawner,
         joint_broad_spawner,

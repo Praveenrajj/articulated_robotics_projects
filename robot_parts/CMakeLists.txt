@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 cmake_minimum_required(VERSION 3.5)
 project(robot_parts)
 
@@ -34,6 +35,13 @@ endif()
 
 install(DIRECTORY launch config worlds description
   DESTINATION share/${PROJECT_NAME}
+)
+
+install(PROGRAMS 
+  scripts/drive_square.py
+  scripts/infinite_square.py
+  scripts/square_feedback_run.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()
